@@ -1,13 +1,13 @@
 {
   "name": "react-circular-progress",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "A circular progressbar built for React",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "webpack"
+    "dist": "browserify index.js -t [ reactify --everything --es6 ] -o bundle.js"
   },
-  "author": "",
+  "author": "wmartins",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.3.13",
